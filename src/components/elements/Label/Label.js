@@ -1,10 +1,10 @@
 import React from 'react';
 import StyledLabel from './StyledLabel.js';
 
-export default function Label(props) {
+export default function Label({message, labelFor}) {
   return (
-    <StyledLabel>
-      <p>{props}</p>
+    <StyledLabel htmlFor={labelFor} >
+      {message}
     </StyledLabel>
   )
 };

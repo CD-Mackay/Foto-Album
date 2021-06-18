@@ -13,7 +13,7 @@ import {
   spacing
 } from 'src/css_vars.js';
 
-const StyledLabel = styled.div`
+const StyledLabel = styled.label`
    background-color: ${lightBlue};
 
    p {
