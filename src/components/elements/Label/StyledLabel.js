@@ -5,6 +5,7 @@ import {
   darkBlue,
   darkGrey,
   headerFont,
+  titleFont,
   headerGrey,
   paraFont,
   midBlue,
@@ -15,10 +16,7 @@ import {
 
 const StyledLabel = styled.label`
    background-color: ${lightBlue};
-
-   p {
-     color: #fff;
-   }
+   font-family: ${titleFont};
 `
 
 export default StyledLabel;
