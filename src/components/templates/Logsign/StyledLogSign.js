@@ -19,10 +19,20 @@ const StyledLogSign = styled.section`
    margin: 0 auto;
    height: auto;
    padding: 20px;
+
    .login-form {
      display: grid;
      grid-template-columns: 1fr 1fr; 
      column-gap: 20px;
+
+     .form-wrapper {
+
+        .input-wrapper {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px;
+        }
+     }
    };
    `
 
