@@ -13,12 +13,11 @@ import {
   spacing
 } from 'src/css_vars.js';
 
-const StyledLogSign = styled.div`
+const StyledLogSign = styled.section`
    background-color: ${lightBlue};
-
-   p {
-     color: #fff;
-   }
-`
+   width: 75%;
+   margin: 0 auto;
+   height: auto;
+   `
 
 export default StyledLogSign;
