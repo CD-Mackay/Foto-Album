@@ -40,6 +40,14 @@ module.exports = {
 
   resolve: {
     extensions: ["*", ".js", ".jsx", '.scss'],
+
+    alias: {
+      src: path.resolve(__dirname, './src'),
+      elements: path.resolve(__dirname, './src/components/elements'),
+      molecules: path.resolve(__dirname, './src/components/molecules'),
+      pages: path.resolve(__dirname, './src/components/pages'),
+      templates: path.resolve(__dirname, './src/components/templates'),
+    }
   },
   plugins: [
     htmlPlugin,

@@ -2,27 +2,20 @@ import React from 'react';
 import { styled, createGlobalStyle } from 'styled-components';
 import { GlobalStyle } from './GlobalStyles.js';
 import StyledApp from './StyledApp.js';
+import Home from '../src/components/pages/Home/Home.js';
+import LogSign from 'templates/LogSign/LogSign.js';
+import Header from 'templates/Header/Header.js';
+import Footer from 'templates/Footer/Footer.js';
 
 const App = () => {
   return (
     <StyledApp>
-      <GlobalStyle />
-      <header>
-        <h1>React App Template</h1>
-        </header>
-      <main id="mainWrap">
-        <section className="gridWrap">
-          <h2>Welcome to The Grid.</h2>
-          <p>This reactJS template was the result of a challenge from a close friend and mentor, and some curiosity. The purpose of this is to have an up and running ReactJS app, that is as minimal as possible.</p>
-          <p>Proceed with caution. This may be a smaller app to start, but wont be as... 'comfy' as create-react-app.</p>
-          <div className="theChallenge">
-            <p>With that, I have one question...</p>
-            <h4>What will YOU build today?</h4>
-            </div>
-          </section>
-        </main>
+      <Header />
+      <Home />
+      <LogSign />
+      <Footer />
       </StyledApp>
   )
-}
+};
 
 export default App
