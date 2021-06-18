@@ -15,6 +15,8 @@ export default function LogSign(props) {
         <form>
           <Label message={"Enter Username"} labelFor={"username"} />
           <InputField name={"username"} type={"text"} />
+          <Label message={"Enter your SECRET password"} labelForm={"password"} />
+          <InputField name={"password"} type={"password"} />
         </form>
       </div>
     </StyledLogSign>
