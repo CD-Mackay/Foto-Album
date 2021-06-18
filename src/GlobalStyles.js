@@ -72,7 +72,7 @@ export const GlobalStyle = createGlobalStyle`
   /* END OF RESET */
 
   h1 {
-    color: ${lightBlue};
+    color: white;
     font-family: ${cyberFont};
     font-size:30px;
     font-weight:700;
@@ -80,7 +80,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
-    color: ${lightBlue};
+    color: white;
     font-family: ${cyberFont};
     font-size:25px;
     font-weight:700;
@@ -88,7 +88,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h3 {
-    color: ${lightBlue};
+    color: white;
     font-family: ${cyberFont};
     font-size:22px;
     font-weight:700;
@@ -96,7 +96,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h4 {
-    color: ${lightBlue};
+    color: white;
     font-family: ${cyberFont};
     font-size:20px;
     font-weight:700;
@@ -104,7 +104,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h5 {
-    color: ${lightBlue};
+    color: white;
     font-family: ${cyberFont};
     font-size:20px;
     font-weight:700;
@@ -112,7 +112,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h6 {
-    color: ${lightBlue};
+    color: white;
     font-family: ${cyberFont};
     font-size:20px;
     font-weight:700;
@@ -120,7 +120,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    color: ${lightBlue};
+    color: white;
     font-family: ${paraFont};
     font-size:18px;
     line-height:20px;
