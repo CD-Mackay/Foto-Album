@@ -1,10 +1,8 @@
 import React from 'react';
 import StyledInputField from './StyledInputField.js';
 
-export default function InputField(props) {
+export default function InputField({type, name}) {
   return (
-    <StyledInputField>
-      <p>I am input field</p>
-    </StyledInputField>
+    <StyledInputField type={type} name={name} />
   )
 };

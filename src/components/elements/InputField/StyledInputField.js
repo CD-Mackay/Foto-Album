@@ -13,12 +13,7 @@ import {
   spacing
 } from 'src/css_vars.js';
 
-const StyledInputField = styled.div`
-   background-color: ${lightBlue};
-
-   p {
-     color: #fff;
-   }
+const StyledInputField = styled.input`
 `
 
 export default StyledInputField;
