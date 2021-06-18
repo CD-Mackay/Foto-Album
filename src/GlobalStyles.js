@@ -6,6 +6,7 @@ import {
   darkGrey,
   headerFont,
   headerGrey,
+  titleFont,
   paraFont,
   midBlue,
   lightBlue,
@@ -81,7 +82,7 @@ export const GlobalStyle = createGlobalStyle`
 
   h2 {
     color: white;
-    font-family: ${cyberFont};
+    font-family: ${titleFont};
     font-size:25px;
     font-weight:700;
     text-transform: uppercase;
