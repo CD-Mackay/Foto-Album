@@ -12,12 +12,14 @@ export default function LogSign(props) {
         <div className="text-wrapper">
           <p>I am text</p>
         </div>
-        <form>
-          <Label message={"Enter Username"} labelFor={"username"} />
-          <InputField name={"username"} type={"text"} />
-          <Label message={"Enter your SECRET password"} labelForm={"password"} />
-          <InputField name={"password"} type={"password"} />
-        </form>
+        <div className="form-wrapper">
+          <form>
+            <Label message={"Enter Username"} labelFor={"username"} />
+            <InputField name={"username"} type={"text"} />
+            <Label message={"Enter your SECRET password"} labelForm={"password"} />
+            <InputField name={"password"} type={"password"} />
+          </form>
+        </div>
       </div>
     </StyledLogSign>
   )

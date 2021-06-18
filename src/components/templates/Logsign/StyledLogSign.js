@@ -18,6 +18,10 @@ const StyledLogSign = styled.section`
    width: 75%;
    margin: 0 auto;
    height: auto;
+   .login-form {
+     display: grid;
+     grid-template-columns: 1fr 1fr; 
+   }
    `
 
 export default StyledLogSign;
