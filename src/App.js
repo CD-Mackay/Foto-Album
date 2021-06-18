@@ -9,12 +9,13 @@ import Footer from 'templates/Footer/Footer.js';
 
 const App = () => {
   return (
-    <StyledApp>
+    <div>
+    <GlobalStyle />
       <Header />
       <Home />
       <LogSign />
       <Footer />
-      </StyledApp>
+      </div>
   )
 };
 

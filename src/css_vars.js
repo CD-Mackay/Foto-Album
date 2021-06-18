@@ -1,6 +1,7 @@
 const headerFont = "'Montserrat', sans-serif";
-const paraFont = "'Lato', sans-serif";
 const cyberFont = "'Titillium Web', sans-serif";
+const titleFont = "'Noto Sans', sans-serif";
+const paraFont = "'Open Sans', sans-serif";
 
 // Colors
 const darkGrey = '#26303b';
@@ -18,6 +19,7 @@ export {
   darkBlue,
   darkGrey,
   headerFont,
+  titleFont,
   headerGrey,
   paraFont,
   midBlue,
